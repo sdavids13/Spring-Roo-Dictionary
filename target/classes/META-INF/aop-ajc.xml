@@ -1,0 +1,12 @@
+<aspectj>
+<aspects>
+<aspect name="com.bti.ws.controller.ApplicationConversionServiceFactoryBean_Roo_ConversionService"/>
+<aspect name="com.bti.ws.domain.Word_Roo_ToString"/>
+<aspect name="com.bti.ws.controller.WordController_Roo_Controller"/>
+<aspect name="com.bti.ws.domain.Word_Roo_Configurable"/>
+<aspect name="com.bti.ws.domain.Word_Roo_Json"/>
+<aspect name="com.bti.ws.domain.Word_Roo_Entity"/>
+<aspect name="com.bti.ws.domain.Word_Roo_JavaBean"/>
+</aspects>
+</aspectj>
+

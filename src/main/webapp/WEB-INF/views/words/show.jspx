@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_bti_ws_domain_Word" object="${word}" path="/words" z="6OKzAe9dvCvPQ+tGJereFm9bzS4=">
+        <field:display field="name" id="s_com_bti_ws_domain_Word_name" object="${word}" z="B8Q4MJKJaBRmiuk5VbStJ+eq4r8="/>
+        <field:display field="definition" id="s_com_bti_ws_domain_Word_definition" object="${word}" z="Xw1C5loSmlaf6FOnPDAYklaaaQA="/>
+    </page:show>
+</div>

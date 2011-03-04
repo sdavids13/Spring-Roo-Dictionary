@@ -1,0 +1,14 @@
+// Spring Roo 1.1.1.RELEASE [rev 156ccd6] log opened at 2011-02-28 20:16:35
+project --topLevelPackage com.bti.ws --projectName Dictionary --java 6
+// Spring Roo 1.1.1.RELEASE [rev 156ccd6] log closed at 2011-02-28 20:16:36
+// Spring Roo 1.1.1.RELEASE [rev 156ccd6] log opened at 2011-02-28 20:16:38
+hint
+persistence setup --database MYSQL --provider HIBERNATE --hostName localhost --databaseName test --userName root --password password
+hint
+entity --class ~.domain.Word
+hint
+field string --fieldName name --notNull true --unique true
+json all
+controller all --package ~.controller 
+web mvc install view --path ext --title "Ext JS WS" --viewName index
+// Spring Roo 1.1.1.RELEASE [rev 156ccd6] log closed at 2011-02-28 22:22:15
